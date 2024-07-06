@@ -4,6 +4,7 @@ import PaginaInicial from "./Pages/PaginaInicial/PaginaInicial";
 import Autor from "./Pages/Autor/Autor";
 import Cardapio from "./Pages/Cardapio/Cardapio";
 import Shares from "./Pages/Shares/Share";
+import Social from "./Pages/Social/Social"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/autor" element={<Autor />} />
         <Route path="/cardapio" element={<Cardapio />} />
         <Route path="/Share" element={<Shares/>} />
+        <Route path="/Social" element={<Social/>}/>
       </Routes>
     </Router>
   );
